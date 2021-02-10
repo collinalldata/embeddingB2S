@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <title>Basic embedding B2S</title>
+    <script
+      type="text/javascript"
+      src="https://public.tableau.com/javascripts/api/tableau-2.min.js"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>😍 Welcome to my embed page 😍</h1>
+    <h2>Hope that you enjoy 💖</h2>
+    <hr />
+    <div>
+      <button id="exportPDF">Export to PDF</button>
+      <button id="exportExcel">Export to Excel</button>
+    </div>
+    <div>
+      <button id="showHideViz">Hide Viz</button>
+    </div>
+    <hr />
+    <input type="number" id="minValue" placeholder="Min Value" />
+    <input type="number" id="maxValue" placeholder="Max Value" />
+    <button id="applyFilter">Apply filter</button>
+    <div id="vizContainer"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
